@@ -1,0 +1,44 @@
+  :root {
+    --bg:  #4F6DEF;
+    --bg-accent: #225fb9;
+    --text-color: #dadce1;
+    --nav-size: 50px;
+    --border: 1px solid #1462b1;
+    --border-radius: 8px;
+    --speed: 500ms; 
+  }
+  
+  .header {
+    background: linear-gradient(90deg,rgba(69,101,238,0.95) 0%,rgba(116,59,239,0.85) 27%,rgba(22,133,224,0.55) 85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 16vh;
+    border: 2px solid var(--bg);
+    background-color: var(--bg);
+  }
+
+  .button-list-items li{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 18px 5px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .button-list-items  {
+    width: 100vw;
+    padding-left:260px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg);
+  }

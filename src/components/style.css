@@ -1,0 +1,17 @@
+.site-header-logo svg{
+
+    fill: #ff7900;
+    height: 39px;
+    width: 160px;
+}
+
+.headerSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 18px 30px;
+    height: 82px;
+}
